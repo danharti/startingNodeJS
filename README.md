@@ -1,4 +1,4 @@
-# LearningNodeJS
+# LearningNodeJS with Express
 
 Creating and setting up our initial node project with Express
 
@@ -27,4 +27,5 @@ Creating and setting up our initial node project with Express
 			}
 		  Once you run the node app.js again, your terminal or console would show the word, I'm running.
 
-		
+Shortcut: use the express generator
+http://expressjs.com/starter/generator.html
