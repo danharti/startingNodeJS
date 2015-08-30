@@ -25,6 +25,6 @@ Creating and setting up our initial node project with Express
 			app.listen(3000, function(){
 		  	  console.log("I'm running");
 			}
-		  Once you run the node app.js again, your terminal or console would show the word, I'm running
+		  Once you run the node app.js again, your terminal or console would show the word, I'm running.
 
 		
