@@ -1,0 +1,12 @@
+# Creating a REST API in Express
+
+res.json() method
+Documentation on the res.json method: http://expressjs.com/4x/api.html#res.json
+
+The MEAN Stack Generator: http://mean.io/
+
+The most popular node client for Mongodb: http://mongoosejs.com/
+A popular node client for PostgreSQL: https://github.com/brianc/node-postgres
+A popular node client for MySQL: https://github.com/felixge/node-mysql/
+
+**What is a node Client?**
