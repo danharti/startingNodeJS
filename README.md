@@ -1,16 +1,17 @@
-# LearningNodeJS
+# LearningNodeJShttps://github.com/danharti/startingNodeJS/edit/master/README.md#fullscreen
 
 Creating and setting up our initial node project with Express
 
-1. npm init - create a node project initial set up (result will create package.json file containing all the details of your node app)
-2. install express - While inside the project folder, npm install express --save
-3. create your main js file (make sure it is the same name written in your package.json)
-4. inside the main js file
-	a. Require the module that will be using (here is it the express) then assign it to a variable so you can easily access it later
+1. Create a node project initial set up - type **npm init** (result will create package.json file containing all the details of your node app)
+2. Install express - While inside the project folder, **npm install express --save**
+3. Create your main JS file - usually then name is app.js or index.js (make sure it is the same name written in your package.json)
+4. Inside the main JS file
+	
+	*a. Require the module that will be using (here is it the express) then assign it to a variable so you can easily access it later
 		var express = require('express');
-	b. Create our app variable passing in the express method
+	*b. Create our app variable passing in the express method
 		var app = express();
-	c. Set up the development server using the listen method with the parameter of the port of your choice.
+	*c. Set up the development server using the listen method with the parameter of the port of your choice.
 		app.listen(3000);
 
 		**to run this, go to your console, make sure you are in your project folder and then type node app.js or node app (node then the name of the main js file)
