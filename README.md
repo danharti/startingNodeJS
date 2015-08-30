@@ -3,11 +3,11 @@
 Creating and setting up our initial node project with Express
 
 1. Create a node project initial set up - type **npm init** (result will create package.json file containing all the details of your node app)
-2. Install express - While inside the project folder, **npm install express --save**
+2. Install Express - While inside the project folder, **npm install express --save**. For info, express is a web framework use for node.js - http://expressjs.com/
 3. Create your main JS file - usually then name is app.js or index.js (make sure it is the same name written in your package.json)
 4. Inside the main JS file
 	
-		a. Require the module that will be using (here is it the express) then assign it to a variable so you can easily access it later
+		a. Require the module that will be using (here is it Express) then assign it to a variable so you can easily access it later
 			var express = require('express');
 		b. Create our app variable passing in the express method
 			var app = express();
