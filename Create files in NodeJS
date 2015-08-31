@@ -8,3 +8,14 @@ https://docs.nodejitsu.com/articles/file-system/how-to-write-files-in-nodejs
 
 Video Instruction Sample
 https://youtu.be/o7NIYGLC13o
+
+require("fs");
+
+to create a folder - fs.mkdir("folderName");
+to delete a folder - fs.rmdir("folderName");
+
+to create a file - fs.writeFileSync("fileName.extension");
+to remove a file - fs.unlink("fileName.extension");
+
+to read a file - fs.readFileSync("fileName.extension", "UTF-8") 
+//Second parameter - "UTF-8" to read character set
