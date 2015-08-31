@@ -19,3 +19,6 @@ to remove a file - fs.unlink("fileName.extension");
 
 to read a file - fs.readFileSync("fileName.extension", "UTF-8") 
 //Second parameter - "UTF-8" to read character set
+
+To remove a directory (folder) that is not a character set:
+http://www.geedew.com/remove-a-directory-that-is-not-empty-in-nodejs/
